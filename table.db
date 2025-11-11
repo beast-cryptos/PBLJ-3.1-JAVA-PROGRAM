@@ -1,0 +1,13 @@
+CREATE DATABASE college_db;
+
+CREATE TABLE Employee (
+    EmpID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Salary DOUBLE
+);
+
+CREATE TABLE Attendance (
+    StudentID INT,
+    Date DATE,
+    Status VARCHAR(20)
+);
